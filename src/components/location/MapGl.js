@@ -1,3 +1,9 @@
+/*
+ * @Author: Ankit Agnihotri 
+ * @Date: 2019-09-07 21:51:06 
+ * @Last Modified by:   Ankit Agnihotri 
+ * @Last Modified time: 2019-09-07 21:51:06 
+ */
 import React, { Component } from "react";
 import ReactMapGL, {
   Marker,

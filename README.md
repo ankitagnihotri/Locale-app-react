@@ -30,3 +30,10 @@ User can upload the csv in this page.
 http://localhost:3000/home
 ```
 User can see the visualization charts and map in this page.
+
+## Screenshots
+
+![](/screenshots/1.jpg)
+![](/screenshots/2.jpg)
+![](/screenshots/3.jpg)
+![](/screenshots/4.jpg)

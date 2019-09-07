@@ -1,3 +1,9 @@
+/*
+ * @Author: Ankit Agnihotri
+ * @Date: 2019-09-07 21:50:21
+ * @Last Modified by:   Ankit Agnihotri
+ * @Last Modified time: 2019-09-07 21:50:21
+ */
 import React, { Component } from "react";
 import MapGl from "./../location/MapGl";
 import PapaParse from "papaparse";
