@@ -3,9 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.4.0",
+    "axios": "^0.19.0",
+    "d3": "^5.11.0",
+    "d3-ease": "^1.0.5",
+    "highcharts": "^7.2.0",
+    "immutable": "^4.0.0-rc.12",
+    "papaparse": "^5.0.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-scripts": "3.1.1"
+    "react-highcharts": "^16.0.2",
+    "react-jsx-highcharts": "^3.6.1",
+    "react-loader-spinner": "^3.1.2",
+    "react-map-gl": "^5.0.10",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.1.1",
+    "react-table": "^6.10.0",
+    "react-vis": "^1.11.7"
   },
   "scripts": {
     "start": "react-scripts start",

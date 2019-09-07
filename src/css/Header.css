@@ -1,0 +1,142 @@
+.navbar, .navbar#nav-scrolled {
+  background-color: #06233a;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px 0;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  z-index: 11;
+}
+
+.navbar .nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  margin: 0 150px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navbar ul li a {
+  padding: 10px 20px;
+  border-radius: 25px;
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.navbar .demo {
+  position: relative;
+}
+
+.navbar ul li:last-child {
+  padding: 10px 20px;
+}
+
+.navbar ul #login a {
+  padding: 0;
+}
+
+button.primary {
+  background-color: #dfe8ec;
+  color: #2a3a4d;
+  cursor: pointer;
+  transition: background-color .3s;
+}
+
+.navbar #secondary-menu:hover {
+  cursor: pointer;
+}
+
+.navbar #secondary-menu {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 26px;
+}
+
+.navbar ul li {
+  color: #fff;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.navbar #mob-menu-active {
+  opacity: 1;
+  top: 66px;
+  right: 0;
+  border-bottom-left-radius: 20%;
+  z-index: 12;
+}
+
+@media screen and (max-width: 1024px) {
+  .navbar .mobile-nav {
+    height: 420px;
+    padding: 1.25em;
+    width: 100%;
+    position: absolute;
+    opacity: 0;
+    right: -100%;
+    box-shadow: 0 2px 6px -2px #222;
+    top: -420px;
+    background-color: #06233a;
+    overflow-y: hidden;
+    -webkit-transition-property: all;
+    transition-property: all;
+    -webkit-transition-duration: .2s;
+    transition-duration: .2s;
+    -webkit-transition-timing-function: cubic-bezier(0,1,.5,1);
+    transition-timing-function: cubic-bezier(0,1,.5,1);
+  }
+  .navbar ul {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .navbar ul li {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .navbar #secondary-menu {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .container {
+    margin: 0 15px;
+    padding: 10px 0;
+  }
+}
+
+@media screen and (max-width: 1280px) and (min-width: 1024px) {
+  .container {
+    margin: 0 100px;
+  }
+}
